@@ -40,6 +40,7 @@ public class Operation06 {
         "이정찬".equals(name);       //
         "이정찬".equals(name);       //
         System.out.println("테스트 코드 작성");
+        System.out.println("테스트 코드 작성 2");
 
 
 
