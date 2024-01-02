@@ -37,6 +37,8 @@ public class Operation06 {
                                     // null 은 아무것도 아니기에(주소가 없기에) 애초에 성립 x
 
         "이정찬".equals(name);       //
+        "이정찬".equals(name);       //
+        "이정찬".equals(name);       //
 
 
 
