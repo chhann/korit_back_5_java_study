@@ -1,4 +1,4 @@
-package com.study.cho4;
+package com.study.ch04;
 
 public class Operation01 {
     public static void main(String[] args) {
