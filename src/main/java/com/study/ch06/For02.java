@@ -15,9 +15,9 @@ public class For02 {
                 System.out.println();
             }
         }
+//        System.out.println();
         System.out.println();
-        System.out.println();
-        // for문은 횟수중심!! () 안에서 바꾸려하지말고 밖에서 바ㅜ꺼라
+        // for문은 횟수중심!! () 안에서 바꾸려하지말고 밖에서 바꿔라
         int n = 10;
 
         for(int i=0; i < n; i++){
