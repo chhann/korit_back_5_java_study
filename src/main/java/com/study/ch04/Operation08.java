@@ -11,7 +11,7 @@ public class Operation08 {
 
         int num1 = 10;
         int num2 = 20;
-        num1 = num1 + num2; // 스텍 : 뒷쪽부터 읽는다 (num1 + num2 부터읽음)
+        num1 = num1 + num2; // 스텍 : 뒷쪽부터 읽는다 (num2 부터읽음)
         num1 += num2;
         num1 *= num2;
 

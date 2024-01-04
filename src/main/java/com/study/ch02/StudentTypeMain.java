@@ -6,6 +6,7 @@ public class StudentTypeMain {
          *   이름, 학년, 주소를 저장할 수 있는 StudentType 클래스를 만드시오.
          */
         StudentType chan = new StudentType();
+
         chan.name = "이정찬";
         chan.age = 28;
         chan.grade = "4학년";

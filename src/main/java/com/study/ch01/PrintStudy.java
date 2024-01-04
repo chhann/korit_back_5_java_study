@@ -4,6 +4,7 @@ public class PrintStudy {
     public static void main(String[] args) {
         System.out.println("\u0061");
         System.out.println(""+'김'+'준'+'일');
+        System.out.println('김'+1);
         System.out.println('김'+'준'+'일');   // 순서 중요
         System.out.println(""+10+20);
         System.out.println(10+20);      // 순서 중요 !! : 순서대로 읽어서 "" <- 문자열로 읽어서 뒤에도 문자열로 읽힘

@@ -7,12 +7,13 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
         boolean flag1 = true;
 
-
+        // 게임 메뉴 선택할때 들어가는 식
         while (flag1) {
             System.out.println("입력 :");
             int inputValue = scanner.nextInt();
 
             System.out.println("입력한 번호: " + inputValue);
+
             if(inputValue == 0) {
                 System.out.println("프로그램을 종료합니다.");
                 flag1 = false;
