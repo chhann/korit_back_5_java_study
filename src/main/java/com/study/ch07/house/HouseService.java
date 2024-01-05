@@ -12,6 +12,7 @@ public class HouseService {
     HouseRepository houseRepository = new HouseRepository();
 
     void reposi (HouseMember houseMember) {
+
         houseRepository.saveHouse(houseMember);
     }
 
