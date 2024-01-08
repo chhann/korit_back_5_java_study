@@ -28,7 +28,7 @@ public class MemberService {
 
         System.out.println("<<< 회원 등록 >>>");
         code = inputValue("회원코드");
-        if("exit".equalsIgnoreCase(code)) {
+        if(code.equalsIgnoreCase("exit")) {
             return false;
         }
         System.out.println("exit".equalsIgnoreCase(code));

@@ -28,7 +28,7 @@ public class MemberMain {
                 for (int i = 0; i < members.length; i++) {
                     if(members[i] == null){
                         emptyCount++;
-                        System.out.println("null이맞다"+emptyCount);
+
                     }
                 }
 
@@ -56,6 +56,7 @@ public class MemberMain {
                     }
                     System.out.println(members[i].toString());
                 }
+
             }else if( "q".equalsIgnoreCase(selectedMenu) ){
                 break;
             }else {
