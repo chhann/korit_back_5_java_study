@@ -2,7 +2,7 @@ package com.study.ch09;
 
 public class ElectronicDeviceMain {
     public static void main(String[] args) {
-        ElectronicDeivec[]electronicDeivecs = new ElectronicDeivec[10];
+        ElectronicDeivec[] electronicDeivecs = new ElectronicDeivec[10];
 
 
         for(int i = 0; i < electronicDeivecs.length; i++){
@@ -22,6 +22,8 @@ public class ElectronicDeviceMain {
         for (int i = 0; i < electronicDeivecs.length; i++){
             electronicDeivecs[i].showDeviceState();
         }
+
+        System.out.println();
 
         for (int i = 0; i < electronicDeivecs.length; i++){
             if(electronicDeivecs[i] instanceof Computer){

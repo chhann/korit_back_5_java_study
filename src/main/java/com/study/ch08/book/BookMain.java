@@ -22,6 +22,7 @@ public class BookMain {
             System.out.println("메뉴 선택 >>>>");
             selectMenu = scanner.nextLine();
 
+
             if("q".equalsIgnoreCase((selectMenu))){
                 System.out.println("프로그램 종료중 ...");
                 loopFlag = false;

@@ -13,6 +13,7 @@ public class SmartPhone extends ElectronicDeivec{
     // 오버라이드 단축키 ctrl + o
     @Override // @로 시작하면 [어노테이션]
     void showDeviceState() {
+        System.out.print("휴대폰 ");
         super.showDeviceState();
     }
 }
