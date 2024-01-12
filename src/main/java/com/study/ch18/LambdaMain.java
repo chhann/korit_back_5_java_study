@@ -34,7 +34,6 @@ public class LambdaMain {
 
 
         // 매개변수 o, 반환값 x
-
         Consumer<String> setName = name -> {
             String newName = name + "님";
             System.out.println(newName);
@@ -74,6 +73,7 @@ public class LambdaMain {
             numList.add(i + i);
         }
         System.out.println(numList);
+
 
         // 새로운 stream 자료형으로 num -> num % 2 == 0 이조건에 맞는 것들만 바뀐다
         // filter는 조건을 달아 걸러 다시 넣는거

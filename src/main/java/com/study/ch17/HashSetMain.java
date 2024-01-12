@@ -21,7 +21,7 @@ public class HashSetMain {
         HashSet<String> names = new HashSet<>();
         names.addAll(nameList);
 
-        System.out.println(names);
+        System.out.println("gd"+names);
 
         ArrayList<String> newNameList = new ArrayList<>();
         newNameList.addAll(names);
@@ -45,7 +45,6 @@ public class HashSetMain {
 
         for(String name : names){
             System.out.println(name);
-
         }
 
 
