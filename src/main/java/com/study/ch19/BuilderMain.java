@@ -8,7 +8,7 @@ public class BuilderMain {
         Car.CarBuilder carBuilder = Car.builder();
         Car car2 = carBuilder.build();
         Car car = Car.builder().model("반떼").color("블랙").build();
-        System.out.println(car);
+        System.out.println(car2);
 
 
         Student student =

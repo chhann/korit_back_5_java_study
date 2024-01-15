@@ -18,20 +18,3 @@ public class ResposeException extends RuntimeException {
     }
 }
 
-class A {
-    void test() {
-        "hi"
-    }
-}
-1
-class B {
-    print A a;
-
-    public  B () {
-        a =new A();
-    }
-
-    public void printHello() {
-        a.test();
-    }
-}
