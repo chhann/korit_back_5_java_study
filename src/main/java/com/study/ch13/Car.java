@@ -8,4 +8,12 @@ public class Car {
         this.serialNumber = serialNumber;
         this.model = model;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", model='" + model + '\'' +
+                '}';
+    }
 }

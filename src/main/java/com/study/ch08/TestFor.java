@@ -32,7 +32,7 @@ public class TestFor {
 
         while (true){
             for(int i = 0; i < array.length; i++){
-                System.out.println(index1+"gdgdgit add g");
+                System.out.println(index1+"gdgdgit add ggitg");
                 if(array[i] == 0){
                     emptyCount++;
                 }

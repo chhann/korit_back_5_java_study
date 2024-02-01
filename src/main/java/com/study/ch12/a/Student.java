@@ -1,6 +1,5 @@
 package com.study.ch12.a;
 
-import jdk.nashorn.api.tree.SpreadTree;
 
 public class Student {
     private String name;
@@ -43,7 +42,7 @@ public class Student {
     }
 
     private int add(int a, int b ){
-    return a+b;
+        return a+b;
     }
 
 
